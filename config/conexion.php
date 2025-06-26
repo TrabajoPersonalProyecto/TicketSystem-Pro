@@ -8,8 +8,6 @@
             try {
                 //Local
 				$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=proyecto_db","root","");
-                //Produccion
-                //$conectar = $this->dbh = new PDO("mysql:host=localhost;dbname=proyecto_db","Proyecto","contraseña");
 				return $conectar;
 			} catch (Exception $e) {
 				print "¡Error BD!: " . $e->getMessage() . "<br/>";
