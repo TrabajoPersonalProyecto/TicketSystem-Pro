@@ -21,7 +21,7 @@
 
         public static function ruta(){
             //Local
-			return "http://localhost/PROYECTO/";
+			return "http://localhost8/PROYECTO/";
            
 		}
 
